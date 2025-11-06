@@ -1,3 +1,36 @@
+.custom-loading {
+--background: none !important; /* tira o quadrado */
+--spinner-color: #ffffff !important;  /* cor das bolhas */
+--backdrop-opacity: 0.8 !important;   /* transparência do fundo */
+--color: rgb(255, 255, 255) !important;   
+    font-weight: 600;  /* 500 = semi-bold, 600 = bold */
+    font-size: 1.1rem; /* opcional, deixa um pouco maior */
+    letter-spacing: 0.5px; /* dá um respiro entre as letras */         /* texto do loading */
+    text-align: center;
+    box-shadow: none !important;
+    border: none !important;
+    backdrop-filter: none !important;
+    background: none !important;
+}
+
+/* Container do link do rodapé */
+.footer-links {
+  text-align: center; /* Centraliza o texto/link horizontalmente */
+  margin-top: 10px;   /* Dá um espaço em cima, separando do card */
+}
+
+/* Estilo do link dentro do footer-links */
+.footer-links a {
+  color: #fff;         /* Cor do texto do link: branco */
+  text-decoration: none; /* Remove sublinhado padrão do link */
+}
+
+/* Efeito quando o usuário passa o mouse sobre o link */
+.footer-links a:hover {
+  text-decoration: underline; /* Sublinha o link ao passar o mouse */
+}
+
+
 /*
  * App Global CSS
  * ----------------------------------------------------------------------------
