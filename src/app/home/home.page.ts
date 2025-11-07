@@ -5,6 +5,7 @@ import { IonicModule } from '@ionic/angular';
 import { FilmeService } from '../services/filme.service';
 import { register } from 'swiper/element/bundle';
 import { debounceTime, Subject } from 'rxjs';
+import { RouterLink } from '@angular/router';
 
 register();
 
@@ -13,7 +14,7 @@ register();
   templateUrl: './home.page.html',
   styleUrls: ['./home.page.scss'],
   standalone: true,
-  imports: [CommonModule, FormsModule, IonicModule, DatePipe],
+  imports: [CommonModule, FormsModule, IonicModule, DatePipe, RouterLink],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class HomePage {
