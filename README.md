@@ -31,7 +31,7 @@ Além disso, é possível criar sua conta e fazer login para acessar todos os re
 ## 👩‍💻 Autores
 
 - **Sara Oliveira** — Designer e desenvolvedora front-end  
-- **Carolyna Costa** — Desenvolvedora e colaboradora do projeto  
+- **Carolyna Costa** — Designer e desenvolvedora front-end  
 - **Caio Pita** — Desenvolvedor e colaborador do projeto  
 
 ---
@@ -46,13 +46,6 @@ O **Clap!** foi desenvolvido como parte de um **projeto acadêmico**, com o obje
 
 O nome **“Clap!”** vem da ideia de *“bater palmas”* para o cinema — celebrando os filmes e os artistas por trás deles. 🎥✨  
 
----
-
-## 📸 Prévia
-
-> *(Adicione aqui prints do app quando quiser mostrar o visual do projeto!)*
-
----
 
 ## 📲 Como Executar o Projeto
 
