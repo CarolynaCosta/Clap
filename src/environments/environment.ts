@@ -3,12 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 // src/environments/firebase.config.ts
-import { initializeApp } from "firebase/app";
-import { getAuth } from "firebase/auth";
-import { getFirestore } from "firebase/firestore";
+// src/environments/environment.ts
 export const environment = {
   production: false,
-
   firebaseConfig: {
     apiKey: "AIzaSyASMoY0vTrNgFjyGkmQfQw4-YrFPfHnN0w",
     authDomain: "clap-c767f.firebaseapp.com",
@@ -16,13 +13,10 @@ export const environment = {
     storageBucket: "clap-c767f.firebasestorage.app",
     messagingSenderId: "836484119429",
     appId: "1:836484119429:web:58da07d914be3ecfe8e2ec"
-  }
-  ,tmdbApiKey: '77c38bc86cd424db480ddbe638e4b466'
+  },
+  tmdbApiKey: '77c38bc86cd424db480ddbe638e4b466'
 };
 
-const app = initializeApp(environment.firebaseConfig); // Inicializa o Firebase
-export const auth = getAuth(app); // Aquivai usar para login, cadastro, logout
-export const db = getFirestore(app);// Aqui você salva ou busca dados do usuário
 
 
 /*

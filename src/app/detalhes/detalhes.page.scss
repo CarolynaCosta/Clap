@@ -132,6 +132,10 @@ p {
     width: 80px;
     min-width: 80px;
   }
-  .cast-icon-placeholder { width: 64px; height: 64px; }
-  .cast-member .actor-name { font-size: 0.78rem; -webkit-line-clamp: 2; }
+  .cast-member .actor-name {
+    font-size: 0.78rem;
+    line-clamp: 2; 
+    -webkit-line-clamp: 2;
+  }
 }
+
